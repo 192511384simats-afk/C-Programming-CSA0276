@@ -1,0 +1,38 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+# include <string.h>
+
+struct music
+{
+    char album[50];
+    char singer[50];
+   float duration;
+}m1,m2,m3;
+int main()
+{
+strcpy(m1.album,"BEAT IT");
+strcpy(m1.singer,"MICHEAL JACKSON");
+m1.duration = 4.52;
+
+strcpy(m2.album,"ENTHIRAN");
+strcpy(m2.singer,"AR RAHMAN");
+m2.duration = 5.48;
+
+strcpy(m3.album,"PUNNAGAI MANNAN");
+strcpy(m3.album,"ILLAYARAJA");
+m3.duration = 6.32;
+
+printf(" ALBUM - %s\n",m1.album);
+printf(" SINGER - %s\n",m1.singer);
+printf(" DURATION - %f\n",m1.duration);
+printf("----------------------\n");
+printf(" ALBUM - %s\n",m2.album);
+printf(" SINGER - %s\n",m2.singer);
+printf(" DURATION - %f\n",m2.duration);
+printf("----------------------\n");
+printf(" ALBUM - %s\n",m3.album);
+printf(" SINGER - %s\n",m3.singer);
+printf(" DURATION - %f\n",m3.duration);
+printf("----------------------");
+return 0;
+}
